@@ -1,0 +1,28 @@
+div{
+    background-color: hotpink;
+    height: 50px;
+}
+div:hover{
+    background-color:khaki;
+}
+a{
+    margin-top: 50px;
+    display: block;
+    color: darkred;  
+}
+a:visited{
+    color:lawngreen;
+}
+li:first-child{
+    color:mediumaquamarine;
+}
+li:nth-child(2n+1){
+    background-color:brown ;
+}
+li::after{
+    content: ' main';
+}
+li::before{
+    content: 'djdjdj';
+    color: bisque; 
+}
